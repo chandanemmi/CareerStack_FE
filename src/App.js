@@ -1,24 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+// import "./App.css";
+import Create from "./pages/learning-path/create";
+import Job from "./pages/learning-path/jobRole";
+import "./scsss/style.scss";
+import EachJob from "./pages/EachJobRole";
+import JobPosting from "./pages/learning-path/JobPosting.js";
+import Course from "./pages/learning-path/Course";
+import EachCourse from "./pages/learning-path/EachCourse";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Course /> */}
+      {/* <Job /> */}
+      {/* <Create /> */}
+
+      {/* <EachJob /> */}
+      {/* <JobPosting /> */}
+      <EachCourse />
     </div>
   );
 }

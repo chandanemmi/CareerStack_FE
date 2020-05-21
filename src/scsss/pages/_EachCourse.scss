@@ -1,0 +1,75 @@
+.CourseRoleBox {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+  margin-top: 100px;
+  width: 100%;
+  background: #ffffff;
+  // padding: 1.5rem;
+  height: 75vh;
+  position: relative; // added for job posting
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+  height: 85%;
+  grid-template-rows: 100px auto;
+  overflow: hidden;
+}
+
+.EachCourseCardOut {
+  //   position: absolute;
+  width: auto;
+  height: 80%;
+  padding: 0.9rem 0.2rem 0rem 0rem;
+  text-align: center;
+  //   grid-column: 1;
+  background: #fff;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  //   height: "110px";//
+  display: grid;
+  grid-gap: 10px;
+  overflow: hidden;
+  height: auto;
+  overflow: auto;
+}
+
+.EachCourseCardIn {
+  width: auto;
+  height: 80%;
+  padding: 0.9rem 0.2rem 0rem 0rem;
+  text-align: center;
+  //   grid-column: 1;
+  background: #fff;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  //@extend
+  background: #ffff;
+  height: auto;
+  text-align: start;
+  border: 1px solid rgba(120, 120, 120, 0.25);
+  padding: 5px;
+
+  .desc {
+    text-align: start;
+    font-weight: bold;
+  }
+  .heading {
+    font-weight: bold;
+  }
+}
+.CourseCardBut {
+  width: auto;
+  height: 1px;
+  padding: 0.2rem 0.2rem 0rem 0rem;
+  text-align: end;
+  //   grid-column: 1;
+  //   background: palegreen;
+  .but {
+    text-align: center;
+    width: 88px;
+    height: 36px;
+    background: #ffffff;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    transform: translateY(-20px);
+  }
+}
