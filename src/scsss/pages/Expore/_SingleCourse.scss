@@ -1,0 +1,144 @@
+.IndividualCourseCard {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(1, 1fr);
+  background: #ffffff;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 0.2rem;
+  height: auto;
+
+  .CourseTitle {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    opacity: 0.6;
+    // background: cadetblue;
+    // overflow: hidden;
+    ul {
+      list-style: none;
+    }
+    i {
+      background: peru;
+    }
+    .SecondTitle {
+      font-size: 12px;
+      line-height: 16px;
+      color: #000000;
+      // background: cadetblue;
+      opacity: 0.6;
+    }
+  }
+  .platfrom {
+    display: flex;
+    justify-content: center;
+    // background: cadetblue;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #1f0404;
+    opacity: 0.6;
+    ul {
+      list-style: none;
+    }
+    li {
+      transform: translateY(-8px);
+    }
+  }
+  .CourseButton {
+    // background: rgb(34, 31, 1);
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    button {
+      width: 108px;
+      height: 24px;
+      // background: brown;
+      border-radius: 8px;
+      background: #29f30acc;
+      transform: translateY(-19px);
+    }
+  }
+}
+
+.RelatedCourse {
+  display: grid;
+  padding: 0.2rem;
+  background: #fff;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  min-height: 150px;
+  // overflow: hidden;
+  overflow: scroll;
+  ul {
+    list-style: none;
+  }
+}
+
+// .CourseRoleBox {
+//   //Box
+//   display: grid;
+//   grid-template-columns: repeat(1, 1fr);
+//   grid-gap: 8px;
+//   margin-top: 100px;
+//   width: 100%;
+//   background: #fff;
+//   // padding: 1.5rem;
+//   border: 0;
+//   position: relative; // added for job posting
+//   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+//   height: 85%;
+//   grid-template-rows: 100px auto;
+//   overflow: hidden;
+// }
+
+// //Big card
+// .EachCourseCardOut {
+//   //   position: absolute;
+//   width: auto;
+//   // width: 100%;
+//   height: 80%;
+//   padding: 0.9rem 0.2rem 0rem 0rem;
+//   text-align: center;
+//   //   grid-column: 1;
+//   background: rgb(16, 235, 8);
+//   box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+//   border-radius: 8px;
+//   //   height: "110px";//
+//   display: grid;
+//   grid-gap: 10px;
+//   overflow: hidden;
+//   height: auto;
+//   overflow: auto;
+// }
+// //card2
+// .EachCourseCardIn {
+//   width: auto;
+//   height: 80%;
+//   padding: 0.9rem 0.2rem 0rem 0rem;
+//   text-align: center;
+//   //   grid-column: 1;
+//   background: #fff;
+//   box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+//   border-radius: 8px;
+//   //@extend
+//   background: #ffff;
+//   height: auto;
+//   text-align: start;
+//   border: 1px solid rgba(120, 120, 120, 0.25);
+//   padding: 5px;
+//   .desc {
+//     text-align: start;
+//     font-weight: bold;
+//     background: red;
+//   }
+//   .heading {
+//     font-weight: bold;
+//     background: red;
+//   }
+// }

@@ -1,16 +1,6 @@
 import React, { useState } from "react";
-import Container from "../../utilis/container";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import logo from "../../logo.svg";
-import {
-  faGoogle,
-  faFacebook,
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
-library.add(faGoogle, faFacebook, faTwitter);
+import Container from "../../../utilis/container";
+import logo from "../../../logo.svg";
 function JobPosting() {
   const [navOpen, setNavOpen] = useState(false);
   return (
@@ -19,10 +9,10 @@ function JobPosting() {
         <div className="JobPostCard">
           <div className="imgbx">
             {/* <figure>
-            
-              <FontAwesomeIcon icon={faBars} />
-              <FontAwesomeIcon icon={faGoogle} />
-            </figure> */}
+              
+                <FontAwesomeIcon icon={faBars} />
+                <FontAwesomeIcon icon={faGoogle} />
+              </figure> */}
             <img src={logo} alt="logo" />
           </div>
           <div className="JPost-content">
@@ -42,10 +32,10 @@ function JobPosting() {
         <div className="JobPostCard">
           <div className="imgbx">
             {/* <figure>
-            
-              <FontAwesomeIcon icon={faBars} />
-              <FontAwesomeIcon icon={faGoogle} />
-            </figure> */}
+              
+                <FontAwesomeIcon icon={faBars} />
+                <FontAwesomeIcon icon={faGoogle} />
+              </figure> */}
             <img src={logo} alt="logo" />
           </div>
           <div className="JPost-content">
@@ -65,10 +55,10 @@ function JobPosting() {
         <div className="JobPostCard">
           <div className="imgbx">
             {/* <figure>
-            
-              <FontAwesomeIcon icon={faBars} />
-              <FontAwesomeIcon icon={faGoogle} />
-            </figure> */}
+              
+                <FontAwesomeIcon icon={faBars} />
+                <FontAwesomeIcon icon={faGoogle} />
+              </figure> */}
             <img src={logo} alt="logo" />
           </div>
           <div className="JPost-content">
@@ -88,10 +78,10 @@ function JobPosting() {
         <div className="JobPostCard">
           <div className="imgbx">
             {/* <figure>
-            
-              <FontAwesomeIcon icon={faBars} />
-              <FontAwesomeIcon icon={faGoogle} />
-            </figure> */}
+              
+                <FontAwesomeIcon icon={faBars} />
+                <FontAwesomeIcon icon={faGoogle} />
+              </figure> */}
             <img src={logo} alt="logo" />
           </div>
           <div className="JPost-content">

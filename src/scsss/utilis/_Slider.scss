@@ -1,0 +1,16 @@
+.observer-sect {
+  margin-top: 30vh;
+  height: 4rem;
+  background: palevioletred;
+}
+
+.slider-card {
+  position: sticky;
+  top: 4rem;
+  z-index: 12;
+  background: palegreen;
+  padding: 2rem 1rem;
+  border-radius: 1.5rem 1.5rem 0 0;
+  height: 100vh;
+  overflow-y: hidden;
+}

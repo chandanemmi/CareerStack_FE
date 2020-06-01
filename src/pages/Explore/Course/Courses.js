@@ -1,5 +1,5 @@
 import React from "react";
-import Container from "../../utilis/container";
+import Container from "../../../utilis/container";
 
 function Course() {
   function Handler() {
@@ -8,10 +8,10 @@ function Course() {
   return (
     <Container>
       <div className="Course">
-        <div className="JobCardBut"> </div>
-        <div className="JobCardBut">
+        <div className="JobCardButton"> </div>
+        <div className="JobCardButton">
           <button
-            className="but"
+            className="button"
             onClick={() => {
               Handler();
             }}
@@ -33,7 +33,7 @@ function Course() {
               <li>Duration 6 months</li>
             </ul>
           </div>
-          <div class="CourseBut">
+          <div class="CourseButton">
             <button onClick={() => alert("hii")}>Free</button>
           </div>
         </div>
@@ -51,7 +51,7 @@ function Course() {
               <li>Duration 6 months</li>
             </ul>
           </div>
-          <div class="CourseBut">
+          <div class="CourseButton">
             <button onClick={() => alert("hii")}>Free</button>
           </div>
         </div>
@@ -69,7 +69,7 @@ function Course() {
               <li>Duration 6 months</li>
             </ul>
           </div>
-          <div class="CourseBut">
+          <div class="CourseButton">
             <button onClick={() => alert("hii")}>Free</button>
           </div>
         </div>
@@ -87,7 +87,7 @@ function Course() {
               <li>Duration 6 months</li>
             </ul>
           </div>
-          <div class="CourseBut">
+          <div class="CourseButton">
             <button onClick={() => alert("hii")}>Free</button>
           </div>
         </div>
@@ -105,7 +105,7 @@ function Course() {
               <li>Duration 6 months</li>
             </ul>
           </div>
-          <div class="CourseBut">
+          <div class="CourseButton">
             <button onClick={() => alert("hii")}>Free</button>
           </div>
         </div>
@@ -123,7 +123,7 @@ function Course() {
               <li>Duration 6 months</li>
             </ul>
           </div>
-          <div class="CourseBut">
+          <div class="CourseButton">
             <button onClick={() => alert("hii")}>Free</button>
           </div>
         </div>

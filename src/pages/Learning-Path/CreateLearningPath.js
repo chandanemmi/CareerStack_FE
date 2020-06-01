@@ -2,7 +2,7 @@ import React, { useState } from "react";
 // import "../../App.css";
 // import Select from "react-select";
 
-const create = (props) => {
+const CreateLearningPath = (props) => {
   //   const [location, setLocation] = useState([]);
   //   const onSelectOptionChange = (location) => {
   //     {
@@ -27,4 +27,4 @@ const create = (props) => {
   );
 };
 
-export default create;
+export default CreateLearningPath;

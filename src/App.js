@@ -1,22 +1,35 @@
 import React from "react";
+import Routes from "./Router/index";
 // import "./App.css";
-import Create from "./pages/learning-path/create";
-import Job from "./pages/learning-path/jobRole";
+import Demo from "./pages/Explore/Demo";
+import CreateLearningPath from "./pages/Learning-Path/CreateLearningPath";
+//expore
+// import JobRoles from "./pages/Explore/JobRole/JobRoles";
+// import SingleJobRole from "./pages/Explore/JobRole/SingleJobRole";
+// import JobPosting from "./pages/Explore/JobPosting/JobPostings.js";
+// import SingleJobPosting from "./pages/Explore/JobPosting/SingleJobPosting";
+// import Course from "./pages/Explore/Course/Courses.js";
+// import SingleCourse from "./pages/Explore/Course/SingleCourse";
+
 import "./scsss/style.scss";
-import EachJob from "./pages/EachJobRole";
-import JobPosting from "./pages/learning-path/JobPosting.js";
-import Course from "./pages/learning-path/Course";
-import EachCourse from "./pages/learning-path/EachCourse";
+
 function App() {
   return (
     <div className="App">
+      {/* <JobRoles /> */}
+      {/* <SingleJobRole /> */}
+      {/* <JobPosting /> */}
+      {/* <SingleJobPosting /> */}
       {/* <Course /> */}
+      {/* <SingleCourse /> */}
+      <Demo />
+      <Routes />
       {/* <Job /> */}
       {/* <Create /> */}
 
       {/* <EachJob /> */}
-      {/* <JobPosting /> */}
-      <EachCourse />
+
+      {/* <IndividualCourse /> */}
     </div>
   );
 }

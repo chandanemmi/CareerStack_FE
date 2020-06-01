@@ -1,4 +1,4 @@
-//basic imoprts
+//basic imports
 @import "./base/font";
 @import "./base/variables";
 @import "./base/settings";
@@ -7,15 +7,23 @@
 // @import "./grid";
 //utils
 @import "./utilis/container";
+@import "./utilis/Box";
+@import "./utilis//BigCard";
+@import "./utilis/Card";
+@import "./utilis/Card2";
+@import "./utilis/Slider";
 @import "./utilis/cirlces";
-@import "./utilis/sign";
+// @import "./utilis/sign";
 
 //
 @import "./pages/goals";
-@import "./pages/JobRole";
-@import "./pages/JobPosting";
-@import "./pages/course";
-@import "./pages//EachCourse";
+@import "./pages/Expore/JobRole";
+@import "./pages/Expore/SingleJobRole";
+@import "./pages/Expore/JobPosting";
+
+@import "./pages/Expore/course";
+@import "./pages/Expore/SingleCourse";
+
 /**
 @import './utils/header';
 @import './utils/container';
