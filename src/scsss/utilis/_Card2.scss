@@ -1,0 +1,16 @@
+.Card2 {
+  display: flex;
+  width: auto;
+  height: 80%;
+  padding: 0.9rem 0.2rem 0rem 0rem;
+  //   text-align: center;
+  flex-direction: column;
+  //   justify-content: space-between;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background: #ffff;
+  height: auto;
+  text-align: start;
+  border: 1px solid rgba(120, 120, 120, 0.25);
+  padding: 5px;
+}

@@ -1,0 +1,65 @@
+//basic imports
+@import "./base/font";
+@import "./base/variables";
+@import "./base/settings";
+@import "./base/viewport-mixin";
+
+// @import "./grid";
+//utils
+@import "./utilis/container";
+@import "./utilis/Box";
+@import "./utilis//BigCard";
+@import "./utilis/Card";
+@import "./utilis/Card2";
+@import "./utilis/Slider";
+@import "./utilis/cirlces";
+// @import "./utilis/sign";
+
+//
+@import "./pages/goals";
+@import "./pages/Expore/JobRole";
+@import "./pages/Expore/SingleJobRole";
+@import "./pages/Expore/JobPosting";
+
+@import "./pages/Expore/course";
+@import "./pages/Expore/SingleCourse";
+
+/**
+@import './utils/header';
+@import './utils/container';
+@import './utils/breadcrumb';
+@import './utils/tabswitcher';
+@import './utils/company-card';
+@import './utils/cardholder';
+@import './utils/right-drawer';
+@import './utils/dark-overlay';
+@import './utils/popup';
+@import './utils/custom-button';
+@import './utils/whitebox';
+
+//app
+@import './app/filter-button';
+
+//pages
+@import './pages/common/auth-login';
+@import './pages/common/table-display';
+@import './pages/college/grad-select';
+
+//company pages
+@import './pages/college/project-form';
+@import './pages/college/evaluation-form';
+
+//student pages
+@import './pages/student/job-popup';
+
+@import './utils/scrollbar';
+@import './utils/topbar';
+//@import '../assets/scss/base.scss'; //Navigation Management
+@import '../scss//utils/slideBar';
+@import url('https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css');
+
+@import '../scss/utils/flexbox';  //super admin
+@import '../scss/pages/super-admin/jadmin.scss'; //super admin
+@import '../scss/utils//overview';//superadmin card
+@import '../scss/utils/ProgressBar';//Progress bar
+**/

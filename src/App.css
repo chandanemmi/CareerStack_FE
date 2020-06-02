@@ -1,0 +1,154 @@
+.App {
+  /* background-color: aqua; */
+  text-align: center;
+}
+/* Rectangle 42 */
+/* .content{
+position: absolute;
+width: 395px;
+height: 289px;
+left: 9px;
+top: 981px;
+
+background: url(TED_Radio_Hour_Podcasts.png), url(TED_Radio_Hour_Podcasts.png), url(TED_Radio_Hour_Podcasts.png);
+box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;} */
+/* .content{
+  background-color: black;
+} */
+.container {
+  background: linear-gradient(139.88deg, #88a4f1 19.39%, #9896eb 75.7%);
+  height: 100vh;
+  width: auto;
+  /* padding: 2rem; */
+}
+.categories{
+  display: flex;
+  line-height: 20px;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 0 10px;
+  background-color: inherit;
+  justify-content: space-between;
+}
+.categories > span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 5px;
+  }
+  .footer{
+    background-color: inherit;
+  }
+  
+  .home-footer{
+    display: flex;
+    padding: 0 10px;
+    background-color: inherit;
+    justify-content: space-between;
+  }
+  .home-footer > span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 5px;
+    }
+.button-inline{
+  background:inherit;
+  color: black;
+  padding:10px;
+  position:relative;
+}
+.button-active{
+  border-radius: 0;
+  border-bottom: 1.5px solid rgb(131, 24, 131);
+}
+.c {
+  position: relative;
+  margin-left: 16rem;
+  margin-top: -20px;
+  width: 25%;
+  border-radius: 50%;
+  /* background: palegreen; */
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+  top: -80px;
+}
+.c1 {
+  position: absolute;
+  background: linear-gradient(139.88deg, #88a4f1 19.39%, #9896eb 75.7%);
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  width: 100%;
+}
+.body {
+  background: #88a4f1;
+}
+
+.box1 {
+  position: relative;
+  display: grid;
+  margin-top: 4rem;
+  background: #fff;
+  /* height: 40vh; */
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0.5rem;
+  /* width: 387px; */
+  height: 267px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+}
+.box2 input {
+  padding: 0.5rem;
+  text-align: center;
+  margin-top: -4rem;
+  border-radius: 10px;
+  height: 2.4rem;
+  width: 90%;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+.box2 i {
+  position: absolute;
+}
+
+.icon {
+  /* padding-bottom: 10px; */
+
+  min-width: 40px;
+  opacity: 0.5;
+  height: auto;
+  font-size: 33px;
+  border-radius: 5px;
+  color: #fff;
+  background: dodgerblue;
+  /* padding-top: 55px; */
+
+  /* color: linear-gradient(139.88deg, #88a4f1 19.39%, #9896eb 75.7%); */
+}
+.icon:hover {
+  opacity: 1;
+}
+
+@media screen and (min-width: 800px) {
+  .box1 {
+    margin-right: 10rem;
+    margin-left: 10rem;
+    height: 50vh;
+    width: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .box2 input {
+    /* height: 2.5rem; */
+    width: 80%;
+  }
+}

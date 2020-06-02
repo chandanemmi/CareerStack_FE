@@ -1,0 +1,19 @@
+// .container {
+//   max-width: 1170px;
+//   margin-left: auto;
+//   margin-right: auto;
+//   padding: 3.5em;
+// }
+.container {
+  // background: linear-gradient(139.88deg, #88a4f1 19.39%, #9896eb 75.7%);
+  background: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 0.1rem;
+}
+//   @include mediaSm {
+//     .container {
+//       margin-left: 0rem;
+//       min-width: 100vw;
+//     }
+//   }
