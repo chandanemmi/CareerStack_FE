@@ -1,0 +1,24 @@
+//colors
+@mixin gradient {
+  background: linear-gradient(90deg, #47a3eb -0.53%, #325eb1 99.8%);
+}
+
+$green: #43a047;
+$red: #e84646;
+$light-red: #e84646;
+$background: rgba(123, 146, 239, 0.5);
+$light: rgba(0.87, 0.87, 0.87, 0.5);
+$grey: #575757;
+$white: #fff;
+$orange: #ffb74a;
+$blue: #316ad9;
+$dark-blue: #0d2149;
+$light-blue: #7eb0de;
+$off-white: #c4c4c4;
+
+//measurements
+$sidebar-width: 6.3125rem;
+$gradientbar-height: 4.375rem;
+$topbar-height: 4rem;
+$tab-header-top: 7.0625rem;
+$tab-header-left: 6.9375rem;
